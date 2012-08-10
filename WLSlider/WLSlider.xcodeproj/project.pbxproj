@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CEA4BA515D0E37800BF414C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEA4BA415D0E37800BF414C /* UIKit.framework */; };
+		9CEA4BA715D0E37800BF414C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEA4BA615D0E37800BF414C /* Foundation.framework */; };
+		9CEA4BA915D0E37800BF414C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEA4BA815D0E37800BF414C /* CoreGraphics.framework */; };
+		9CEA4BAF15D0E37800BF414C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA4BAD15D0E37800BF414C /* InfoPlist.strings */; };
+		9CEA4BB115D0E37900BF414C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA4BB015D0E37800BF414C /* main.m */; };
+		9CEA4BB515D0E37900BF414C /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA4BB415D0E37900BF414C /* WLAppDelegate.m */; };
+		9CEA4BB815D0E37900BF414C /* WLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA4BB715D0E37900BF414C /* WLViewController.m */; };
+		9CEA4BBB15D0E37900BF414C /* WLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA4BB915D0E37900BF414C /* WLViewController.xib */; };
+		9CEA4BC515D0E3AC00BF414C /* WLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEA4BC315D0E3AC00BF414C /* WLSlider.m */; };
+		9CEA4BC615D0E3AC00BF414C /* popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CEA4BC415D0E3AC00BF414C /* popup.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CEA4BA015D0E37800BF414C /* WLSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEA4BA415D0E37800BF414C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CEA4BA615D0E37800BF414C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CEA4BA815D0E37800BF414C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CEA4BAC15D0E37800BF414C /* WLSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WLSlider-Info.plist"; sourceTree = "<group>"; };
+		9CEA4BAE15D0E37800BF414C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CEA4BB015D0E37800BF414C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CEA4BB215D0E37900BF414C /* WLSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLSlider-Prefix.pch"; sourceTree = "<group>"; };
+		9CEA4BB315D0E37900BF414C /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		9CEA4BB415D0E37900BF414C /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
+		9CEA4BB615D0E37900BF414C /* WLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLViewController.h; sourceTree = "<group>"; };
+		9CEA4BB715D0E37900BF414C /* WLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
+		9CEA4BBA15D0E37900BF414C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WLViewController.xib; sourceTree = "<group>"; };
+		9CEA4BC215D0E3AC00BF414C /* WLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSlider.h; sourceTree = "<group>"; };
+		9CEA4BC315D0E3AC00BF414C /* WLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSlider.m; sourceTree = "<group>"; };
+		9CEA4BC415D0E3AC00BF414C /* popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CEA4B9D15D0E37800BF414C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEA4BA515D0E37800BF414C /* UIKit.framework in Frameworks */,
+				9CEA4BA715D0E37800BF414C /* Foundation.framework in Frameworks */,
+				9CEA4BA915D0E37800BF414C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CEA4B9515D0E37800BF414C = {
+			isa = PBXGroup;
+			children = (
+				9CEA4BAA15D0E37800BF414C /* WLSlider */,
+				9CEA4BA315D0E37800BF414C /* Frameworks */,
+				9CEA4BA115D0E37800BF414C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CEA4BA115D0E37800BF414C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA4BA015D0E37800BF414C /* WLSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CEA4BA315D0E37800BF414C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA4BA415D0E37800BF414C /* UIKit.framework */,
+				9CEA4BA615D0E37800BF414C /* Foundation.framework */,
+				9CEA4BA815D0E37800BF414C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CEA4BAA15D0E37800BF414C /* WLSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA4BC415D0E3AC00BF414C /* popup.png */,
+				9CEA4BC115D0E3AC00BF414C /* CustomSlider */,
+				9CEA4BB315D0E37900BF414C /* WLAppDelegate.h */,
+				9CEA4BB415D0E37900BF414C /* WLAppDelegate.m */,
+				9CEA4BB615D0E37900BF414C /* WLViewController.h */,
+				9CEA4BB715D0E37900BF414C /* WLViewController.m */,
+				9CEA4BB915D0E37900BF414C /* WLViewController.xib */,
+				9CEA4BAB15D0E37800BF414C /* Supporting Files */,
+			);
+			path = WLSlider;
+			sourceTree = "<group>";
+		};
+		9CEA4BAB15D0E37800BF414C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA4BAC15D0E37800BF414C /* WLSlider-Info.plist */,
+				9CEA4BAD15D0E37800BF414C /* InfoPlist.strings */,
+				9CEA4BB015D0E37800BF414C /* main.m */,
+				9CEA4BB215D0E37900BF414C /* WLSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CEA4BC115D0E3AC00BF414C /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9CEA4BC215D0E3AC00BF414C /* WLSlider.h */,
+				9CEA4BC315D0E3AC00BF414C /* WLSlider.m */,
+			);
+			path = CustomSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CEA4B9F15D0E37800BF414C /* WLSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEA4BBE15D0E37900BF414C /* Build configuration list for PBXNativeTarget "WLSlider" */;
+			buildPhases = (
+				9CEA4B9C15D0E37800BF414C /* Sources */,
+				9CEA4B9D15D0E37800BF414C /* Frameworks */,
+				9CEA4B9E15D0E37800BF414C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLSlider;
+			productName = WLSlider;
+			productReference = 9CEA4BA015D0E37800BF414C /* WLSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CEA4B9715D0E37800BF414C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "aneesha@walnutlabs.com";
+			};
+			buildConfigurationList = 9CEA4B9A15D0E37800BF414C /* Build configuration list for PBXProject "WLSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CEA4B9515D0E37800BF414C;
+			productRefGroup = 9CEA4BA115D0E37800BF414C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CEA4B9F15D0E37800BF414C /* WLSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CEA4B9E15D0E37800BF414C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEA4BAF15D0E37800BF414C /* InfoPlist.strings in Resources */,
+				9CEA4BBB15D0E37900BF414C /* WLViewController.xib in Resources */,
+				9CEA4BC615D0E3AC00BF414C /* popup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CEA4B9C15D0E37800BF414C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEA4BB115D0E37900BF414C /* main.m in Sources */,
+				9CEA4BB515D0E37900BF414C /* WLAppDelegate.m in Sources */,
+				9CEA4BB815D0E37900BF414C /* WLViewController.m in Sources */,
+				9CEA4BC515D0E3AC00BF414C /* WLSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CEA4BAD15D0E37800BF414C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CEA4BAE15D0E37800BF414C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CEA4BB915D0E37900BF414C /* WLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CEA4BBA15D0E37900BF414C /* en */,
+			);
+			name = WLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CEA4BBC15D0E37900BF414C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CEA4BBD15D0E37900BF414C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CEA4BBF15D0E37900BF414C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLSlider/WLSlider-Prefix.pch";
+				INFOPLIST_FILE = "WLSlider/WLSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CEA4BC015D0E37900BF414C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLSlider/WLSlider-Prefix.pch";
+				INFOPLIST_FILE = "WLSlider/WLSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CEA4B9A15D0E37800BF414C /* Build configuration list for PBXProject "WLSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEA4BBC15D0E37900BF414C /* Debug */,
+				9CEA4BBD15D0E37900BF414C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEA4BBE15D0E37900BF414C /* Build configuration list for PBXNativeTarget "WLSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEA4BBF15D0E37900BF414C /* Debug */,
+				9CEA4BC015D0E37900BF414C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CEA4B9715D0E37800BF414C /* Project object */;
+}
